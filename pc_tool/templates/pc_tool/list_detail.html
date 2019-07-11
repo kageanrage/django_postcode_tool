@@ -1,0 +1,17 @@
+{% extends 'pc_tool/base.html' %}
+
+{% block content %}
+
+<p>This info is displaying on the list_detail template:</p>
+<p></p>
+<p>Title is:</p>
+<p>{{ list.title }}</p>
+<p></p>
+<p>Original text looks like this:</p>
+<p>{{ list.text }}</p>
+<p></p>
+<p>After converting to CSV it looks like this:</p>
+<p>{{ list.convert_to_csv }}</p>
+
+{% endblock %}
+
