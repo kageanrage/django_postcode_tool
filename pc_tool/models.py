@@ -29,4 +29,4 @@ class PostcodeList(models.Model):
         return num_of_postcodes
 
     def csv_preview(self):
-        return self.convert_to_csv()[0:50]
+        return self.convert_to_csv()[0:49]
