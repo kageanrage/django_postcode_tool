@@ -2,12 +2,30 @@
 
 {% block content %}
 
-{% for list in lists %}
-<p>Link to the list detail page:</p>
-<h2><a href="{% url 'list_detail' pk=list.pk %}">{{ list.title }}</a></h2>
-<p></p>
 
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">pk</th>
+      <th scope="col">Title</th>
+      <th scope="col">CSV (preview)</th>
+      <th scope="col"># pcodes</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for list in lists %}
+    <tr>
+      <th scope="row">{{list.pk}}</th>
+      <td> <a href="{% url 'list_edit' pk=list.pk %}">{{list.title}}</a></td>
+      <td>{{list.csv_preview}}</td>
+      <td>{{list.count_of_postcodes}}</td>
+      <td> <a href="{% url 'list_remove' pk=list.pk %}"> Delete</a></td>
+    </tr>
 {% endfor %}
+  </tbody>
+</table>
+
 
 {% endblock %}
 

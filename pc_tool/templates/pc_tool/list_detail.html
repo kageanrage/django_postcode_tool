@@ -2,16 +2,17 @@
 
 {% block content %}
 
-<p>This info is displaying on the list_detail template:</p>
 <p></p>
-<p>Title is:</p>
-<p>{{ list.title }}</p>
+<p>Title: {{ list.title }}</p>
+<a href="{% url 'list_edit' pk=list.pk %}"> Edit </a>
 <p></p>
-<p>Original text looks like this:</p>
+<p></p>
+<p>Original:</p>
 <p>{{ list.text }}</p>
 <p></p>
-<p>After converting to CSV it looks like this:</p>
-<p>{{ list.convert_to_csv }}</p>
+
+<p>Printing the list.csv attribute:</p>
+<p>{{ list.csv }}</p>
 
 {% endblock %}
 

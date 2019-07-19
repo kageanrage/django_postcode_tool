@@ -2,10 +2,15 @@
 
 {% block content %}
 
-    <h2>New postcode list</h2>
-    <form method="POST" class="list-form">{% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Save</button>
-    </form>
+<h2>List of Postcodes</h2>
+<form method="POST" class="list-form">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Save</button>
+    <a href="{% url 'home_page' %}" class="btn btn-primary" role="button" aria-pressed="true">Home</a>
+</form>
+
+
+
+ <!-- This is how you write HTML comments -->
 
 {% endblock %}

@@ -7,4 +7,4 @@ class PostcodeListForm(forms.ModelForm):
 
     class Meta:
         model = PostcodeList
-        fields = ('text',)
+        fields = ('title', 'text', 'csv')
