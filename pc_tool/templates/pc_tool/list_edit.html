@@ -1,13 +1,33 @@
 {% extends 'pc_tool/base.html' %}
 
+{% load crispy_forms_tags %}
+
 {% block content %}
 
-<h2>List of Postcodes</h2>
-<form method="POST" class="list-form">{% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="save btn btn-default">Save</button>
-    <a href="{% url 'home_page' %}" class="btn btn-primary" role="button" aria-pressed="true">Home</a>
-</form>
+
+
+
+<div class="content">
+    <h2>List</h2>
+    <br>
+    <form method="POST" novalidate>
+        {% csrf_token %}
+        <!-- {{ form|crispy }}   -->    <!-- changed from form.as_p -->
+        <div class="row">
+            <div class="col-3">
+                {{ form.title|as_crispy_field }}
+            </div>
+            <div class="col-3">
+                {{ form.text|as_crispy_field }}
+            </div>
+            <div class="col-3">
+                {{ form.csv|as_crispy_field }}
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Save</button>
+        <a href="{% url 'home_page' %}" class="btn btn-primary" role="button" aria-pressed="true">Home</a>
+    </form>
+</div>
 
 
 
