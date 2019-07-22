@@ -6,6 +6,8 @@
 
 # creator-added
 __pycache__/
+pc_project/__pycache__/
+pc_tool/__pycache__/
 .cache
 .idea/
 config.py

@@ -15,15 +15,15 @@ from decouple import config, Csv
 
 
 # this should be the default setting
-# SECRET_KEY = config('SECRET_KEY')
-# DEBUG = config('DEBUG', default=False, cast=bool)
-# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
 # this is what I'm trying to get PythonAnywhere to accept my upload
-SECRET_KEY = 'lY3fYCgTQiSE3zR8WrWmbg2BsRHn2odz'
-DEBUG = False
-ALLOWED_HOSTS = ['.localhost', '.pythonanywhere.com']
+# SECRET_KEY = 'lY3fYCgTQiSE3zR8WrWmbg2BsRHn2odz'
+# DEBUG = False
+# ALLOWED_HOSTS = ['.localhost', '.pythonanywhere.com']
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)

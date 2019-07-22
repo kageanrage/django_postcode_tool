@@ -1,0 +1,21 @@
+{% extends 'pc_tool/base.html' %}
+
+{% block content %}
+
+
+<div class="content">
+    <h2> What is this site for?</h2>
+
+    <p> I've found that I regularly have lists of postcodes in excel format (1 postcode per cell, down a column, when I
+        actually need them separated by commas. Wanting to learn the Django web framework, I thought this would be
+        a good opportunity to completely over-engineer the solution.</p>
+
+    <h2> How to use this site</h2>
+
+    <p> Copy the column of postcodes in excel, open the site, click New, give the postcode list a title, paste the postcodes
+        into the 'Text' field, and then hit Save. Then select the CSV box, select all and copy to clipboard to then use
+        from there.</p>
+
+</div>
+
+{% endblock %}

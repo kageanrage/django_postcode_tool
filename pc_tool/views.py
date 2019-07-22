@@ -47,3 +47,7 @@ def list_remove(request, pk):
     list = get_object_or_404(PostcodeList, pk=pk)
     list.delete()
     return redirect(home_page)
+
+
+def about(request):
+    return render(request, 'pc_tool/about.html', {})
