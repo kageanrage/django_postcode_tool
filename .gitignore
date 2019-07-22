@@ -18,6 +18,7 @@ dummy files/
 *.db
 *.sqlite
 *.pyc
+.env
 *~
 __pycache__
 myvenv

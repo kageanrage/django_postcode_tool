@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19312e7d-74e1-4df2-83f1-710674d990ce" name="Default Changelist" comment="" />
+    <list default="true" id="19312e7d-74e1-4df2-83f1-710674d990ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pc_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pc_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +58,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/delete_this.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pc_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+              <folding>
+                <element signature="e#311#320#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,6 +132,7 @@
       <find>script src</find>
       <find>class</find>
       <find>installed</find>
+      <find>database</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,10 +154,10 @@
         <option value="$PROJECT_DIR$/pc_tool/models.py" />
         <option value="$PROJECT_DIR$/pc_tool/temp.py" />
         <option value="$PROJECT_DIR$/pc_tool/templates/pc_tool/base.html" />
-        <option value="$PROJECT_DIR$/pc_project/settings.py" />
         <option value="$PROJECT_DIR$/pc_tool/static/css/pc_tool.css" />
         <option value="$PROJECT_DIR$/pc_tool/templates/pc_tool/list_edit.html" />
         <option value="$PROJECT_DIR$/delete_this.py" />
+        <option value="$PROJECT_DIR$/pc_project/settings.py" />
       </list>
     </option>
   </component>
@@ -361,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pc_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pc_tool/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -399,6 +396,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/delete_this.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pc_tool/templates/pc_tool/list_edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -406,8 +406,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delete_this.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pc_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
