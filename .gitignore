@@ -15,7 +15,6 @@ dummy files/
 *.xlsx
 *.xlsm
 *.xls
-*.txt
 *.db
 *.sqlite
 *.pyc
